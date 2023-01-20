@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/framework.css">
+  <link rel="icon" href="./media/icon.png">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font -->
+  <title>Settings</title>
+</head>
+<div>
+  <div class="page d-flex">
+  <div class="sidebar p-20 bg-white p-relative">
+    <h3 class="p-relative txt-c mt-0 m-30">Mido</h3>
+    <ul>
+      <li>
+        <a href="index.html" class=" d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-chart-bar"></i>
+          <span class="c-black fs-14">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="settings.html" class=" d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-gear"></i>
+          <span class="c-black fs-14">Settings</span>
+        </a>
+      </li>
+      <li>
+        <a href="profile.html" class="active d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-user"></i>
+          <span class="c-black fs-14">Profile</span>
+        </a>
+      </li>
+      <li>
+        <a href="projects.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-diagram-project"></i>
+          <span class="c-black fs-14">Projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="courses.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span class="c-black fs-14">Courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="friends.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-circle-user"></i>
+          <span class="c-black fs-14">Friends</span>
+        </a>
+      </li>
+      <li>
+        <a href="files.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-file"></i>
+          <span class="c-black fs-14">Files</span>
+        </a>
+      </li>
+      <li>
+        <a href="plans.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-credit-card"></i>
+          <span class="c-black fs-14">Plans</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="nav bg-white between-flex p-20">
+      <div class="search p-relative">
+        <input type="search" class="rad-10 p-10" placeholder="Type A keyword">
+      </div>
+      <div class="rightSide">
+        <i class="fa-regular fa-bell fs-20"></i>
+        <a href="./profile.html"><img class="avatar" src="./media/avatar.png" alt="avatar image"></a>
+      </div>
+
+    </div>
+  <div class="main m-10">
+    <div class="profile">
+    <h1 class="p-relative">Profile</h1>
+    <div class="container">
+      <div class="topSection d-flex">
+        <div class="leftPart d-col-flex">
+          <img src="./media/avatar.png" alt="avatarImg">
+          <h2>Mohamed Ashraf</h2>
+          <span class="level">Level 20</span>
+          <span class="ofa7"><span style="width: 75%;"></span></span>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <span class="rating">550 Rating</span>
+        </div>
+        <div class="rightPart">
+          <div class="line">
+            <span class="title">General Information</span>
+            <div class="content">
+              <div>
+                <p><span>Full Name: </span>Mohamed Ashraf</p>
+              </div>
+              <div>
+                <p><span>Gender: </span>Male</p>
+              </div>
+              <div>
+                <p><span>Country: </span>Egypt</p>
+              </div>
+              <div>
+                <div class="toggleHolder">
+                  <input type="checkbox" name="general info switch" checked id="generalInfo">
+                  <label for="generalInfo" class="toggle">
+                    <div></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line">
+          <span class="title">Personal Information</span>
+            <div class="content">
+              <div>
+                <p><span>Email: </span>midooashraf76@gmail.com</p>
+              </div>
+              <div>
+                <p><span>Phone: </span>01270869770</p>
+              </div>
+              <div>
+                <p><span>Date Of Birth: </span>15/2/2004</p>
+              </div>
+              <div>
+                <div class="toggleHolder">
+                  <input type="checkbox" name="personal info switch" id="personalInfo">
+                  <label for="personalInfo" class="toggle">
+                    <div></div>
+                  </label>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="line">
+              <span class="title">Job Information</span>
+              <div class="content">
+                <div>
+                  <p><span>Title: </span>Full Stack Developer</p>
+                </div>
+                <div>
+                  <p><span>Programming Language: </span>Javascript</p>
+                </div>
+                <div>
+                  <p><span>Years Of Experience: </span>+2</p>
+                </div>
+                <div>
+                  <div class="toggleHolder">
+                    <input type="checkbox" name="job info switch" checked id="jobInfo">
+                    <label for="jobInfo" class="toggle">
+                      <div></div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line">
+              <span class="title">Billing Information</span>
+              <div class="content">
+                <div>
+                  <p><span>Payment Method: </span>Paypal</p>
+                </div>
+                <div>
+                  <p><span>Email: </span>mohamed.dev.egy@gmail.com</p>
+                </div>
+                <div>
+                  <p><span>Subscription: </span>Monthly</p>
+                </div>
+                <div>
+                  <div class="toggleHolder">
+                    <input type="checkbox" name="billing info switch" id="billingInfo">
+                    <label for="billingInfo" class="toggle">
+                      <div></div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="botSection">
+        <div class="leftPart card">
+          <div class="partOne">
+            <h2>My Skills</h2>
+            <span>Complete Skill List</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p>HTML</p>
+              <p>Pugjs</p>
+              <p>HAML</p>
+            </div>
+            <div class="line">
+              <p>CSS</p>
+              <p>SASS</p>
+              <p>Stylus</p>
+            </div>
+            <div class="line">
+              <p>JavaScript</p>
+              <p>TypeScript</p>
+            </div>
+            <div class="line">
+              <p>Vuejs</p>
+              <p>Reactjs</p>
+            </div>
+            <div class="line">
+              <p>Jest</p>
+              <p>Jasmine</p>
+            </div>
+            <div class="line">
+              <p>PHP</p>
+              <P>Laravel</P>
+            </div>
+            <div class="line">
+              <p>Python</p>
+              <p>Django</p>
+            </div>
+          </div>
+        </div>
+        <div class="rightPart card">
+          <div class="partOne">
+            <h2>Latest Activities</h2>
+            <span>Latest Activities Done By The User</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <div class="left">
+                <img src="./media/activity-01.png" alt="activity icon">
+                <div>
+                  <p>Store</p>
+                  <span>Bought The Mastering Python Course</span>
+                </div>
+              </div>
+              <div class="right">
+                <div>
+                  <p>18:10</p>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+            <div class="line">
+              <div class="left">
+                <img src="./media/activity-02.png" alt="activity icon">
+                <div>
+                  <p>Academy</p>
+                  <span>Got The PHP Certificate</span>
+                </div>
+              </div>
+              <div class="right">
+                <div>
+                  <p>15:05</p>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+            <div class="line">
+              <div class="left">
+                <img src="./media/activity-03.png" alt="activity icon">
+                <div>
+                  <p>Badges</p>
+                  <span>Unlocked The 10 Skill Badge</span>
+                </div>
+              </div>
+              <div class="right">
+                <div>
+                  <p>14:37</p>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+            <div class="line">
+              <div class="left">
+                <img src="./media/activity-01.png" alt="activity icon">
+                <div>
+                  <p>Store</p>
+                  <span>Bought The Typescript Course</span>
+                </div>
+              </div>
+              <div class="right">
+                <div>
+                  <p>12:41</p>
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

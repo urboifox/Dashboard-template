@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/framework.css">
+  <link rel="icon" href="./media/icon.png">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font -->
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <div class="page d-flex">
+    <div class="sidebar p-20 bg-white p-relative">
+      <h3 class="p-relative txt-c">Mido</h3>
+      <ul>
+        <li>
+          <a href="index.html" class="active d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-solid fa-chart-bar"></i>
+            <span class="c-black fs-14">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="settings.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-solid fa-gear"></i>
+            <span class="c-black fs-14">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-regular fa-user"></i>
+            <span class="c-black fs-14">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="projects.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span class="c-black fs-14">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="courses.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span class="c-black fs-14">Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="friends.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-regular fa-circle-user"></i>
+            <span class="c-black fs-14">Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="files.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-regular fa-file"></i>
+            <span class="c-black fs-14">Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="plans.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+            <i class="fa-regular fa-credit-card"></i>
+            <span class="c-black fs-14">Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+
+      <div class="nav bg-white between-flex p-20">
+        <div class="search p-relative">
+          <input type="search" class="rad-10 p-10" placeholder="Type A keyword">
+        </div>
+        <div class="rightSide">
+          <i class="fa-regular fa-bell fs-20"></i>
+          <a href="./profile.html"><img class="avatar" src="./media/avatar.png" alt="avatar image"></a>
+        </div>
+      </div>
+
+      <div class="main m-10">
+        <h1 class="p-relative">Dashboard</h1>
+        <div class="container">
+          <div class="card cardOne rad-6">
+            <div class="partOne d-flex">
+              <img src="./media/avatar.png" alt="avatar image">
+              <div class="left">
+                <h2>Welcome</h2>
+                <span>Mido</span>
+              </div>
+              <div class="right">
+                <img class="ill" src="./media/welcome.png" alt="welcome image">
+              </div>
+            </div>
+            <div class="partTwo">
+              <div class="block">
+                <h3>Mohamed Ashraf</h3>
+                <span>Developer</span>
+              </div>
+              <div class="block">
+                <h3>80</h3>
+                <span>Projects</span>
+              </div>
+              <div class="block">
+                <h3>$8500</h3>
+                <span>Earned</span>
+              </div>
+            </div>
+            <div class="partThree">
+              <button>Profile</button>
+            </div>
+          </div>
+          <div class="card cardTwo rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Quick Draft</h2>
+              <span>Write A Draft For Your Ideas</span>
+            </div>
+            <div class="partTwo">
+              <form action="#">
+                <input type="text" name="draft-title" id="draft-title" placeholder="Title" class="rad-6">
+                <textarea maxlength="300" name="draft-text" id="draft-text" placeholder="Your Thoughts"
+                  class="rad-6"></textarea>
+                <div class="submitHolder">
+                  <input class="submit" type="submit" value="Save">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="card cardThree rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Yearly Targets</h2>
+              <span>Targets Of The Year</span>
+            </div>
+            <div class="partTwo">
+              <div class="line one">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <div class="content">
+                  <p>Money</p>
+                  <h3>$20.000</h3>
+                  <div class="lineWidth"><span style="width: 80%;" width="80%"></span></div>
+                </div>
+              </div>
+              <div class="line two">
+                <i class="fa-solid fa-code"></i>
+                <div class="content">
+                  <p>Projects</p>
+                  <h3>24</h3>
+                  <div class="lineWidth"><span style="width: 55%;" width="55%"></span></div>
+                </div>
+              </div>
+              <div class="line three">
+                <i class="fa-solid fa-user"></i>
+                <div class="content">
+                  <p>Team</p>
+                  <h3>12</h3>
+                  <div class="lineWidth"><span style="width: 75%;" width="75%"></span></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="card cardFour rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Tickets Statistics</h2>
+              <span>Everything About Support Tickets</span>
+            </div>
+            <div class="partTwo">
+              <div class="box one">
+                <i class="fa-regular fa-rectangle-list"></i>
+                <h3>2500</h3>
+                <span>Total</span>
+              </div>
+              <div class="box two">
+                <i class="fa-solid fa-spinner"></i>
+                <h3>500</h3>
+                <span>Pending</span>
+              </div>
+              <div class="box three">
+                <i class="fa-regular fa-circle-check"></i>
+                <h3>1900</h3>
+                <span>Closed</span>
+              </div>
+              <div class="box four">
+                <i class="fa-regular fa-rectangle-xmark"></i>
+                <h3>100</h3>
+                <span>Deleted</span>
+              </div>
+            </div>
+          </div>
+          <div class="card cardFive rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2 class="news">Latest News</h2>
+            </div>
+            <div class="partTwo">
+              <div class="block">
+                <div class="leftPart">
+                  <div>
+                    <img src="./media/news-01.png" alt="news image">
+                  </div>
+                  <div>
+                    <h3>Created SASS Section</h3>
+                    <span>New SASS Examples & Tutorials</span>
+                  </div>
+                </div>
+                <div class="rightPart">
+                  <p class="date">3 Days Ago</p>
+                </div>
+              </div>
+              <div class="block">
+                <div class="leftPart">
+                  <div>
+                    <img src="./media/news-02.png" alt="news image">
+                  </div>
+                  <div>
+                    <h3>Changed The Design</h3>
+                    <span>A Brand New Website Design</span>
+                  </div>
+                </div>
+                <div class="rightPart">
+                  <p class="date">5 Days Ago</p>
+                </div>
+              </div>
+              <div class="block">
+                <div class="leftPart">
+                  <div>
+                    <img src="./media/news-03.png" alt="news image">
+                  </div>
+                  <div>
+                    <h3>Team Increased</h3>
+                    <span>3 Developers Joined The Team</span>
+                  </div>
+                </div>
+                <div class="rightPart">
+                  <p class="date">7 Days Ago</p>
+                </div>
+              </div>
+              <div class="block">
+                <div class="leftPart">
+                  <div>
+                    <img src="./media/news-04.png" alt="news image">
+                  </div>
+                  <div>
+                    <h3>Added Payment Gateway</h3>
+                    <span>Many New Payment Gateways Added</span>
+                  </div>
+                </div>
+                <div class="rightPart">
+                  <p class="date">9 Days Ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardSix rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Latest Tasks</h2>
+            </div>
+            <div class="partTwo">
+              <div class="block">
+                <div class="leftPart">
+                    <h3>Record One New Video</h3>
+                    <span>Record Python Create Exe Project</span>
+                </div>
+                <div class="rightPart">
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+              </div>
+              <div class="block">
+                <div class="leftPart">
+                  <h3>Write Article</h3>
+                  <span>Write Low level vs High Level Languages</span>
+              </div>
+                <div class="rightPart">
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+              </div>
+              <div class="block">
+                <div class="leftPart">
+                  <h3>Finish Project</h3>
+                  <span>Publish Academy Programming Project</span>
+              </div>
+                <div class="rightPart">
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+              </div>
+              <div class="block" id="dashed">
+                <div class="leftPart">
+                  <h3>Attend The Meeting</h3>
+                  <span>Attend The Project Business Analysis Meeting</span>
+              </div>
+                <div class="rightPart">
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+              </div>
+              <div class="block">
+                <div class="leftPart">
+                  <h3>Finish Lesson</h3>
+                  <span>Finish Teaching Flex Box</span>
+              </div>
+                <div class="rightPart">
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardSeven rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Top Search Items</h2>
+            </div>
+            <div class="partTwo">
+              <div class="hint">
+                <p>Keyword</p>
+                <p>Search Count</p>
+              </div>
+              <div class="content">
+                <div>
+                  <p>Programming</p>
+                  <p>220</p>
+                </div>
+                <div>
+                  <p>JavaScript</p>
+                  <p>180</p>
+                </div>
+                <div>
+                  <p>PHP</p>
+                  <p>160</p>
+                </div>
+                <div>
+                  <p>Code</p>
+                  <p>145</p>
+                </div>
+                <div>
+                  <p>Design</p>
+                  <p>110</p>
+                </div>
+                <div>
+                  <p>Logic</p>
+                  <p>95</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardEight rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Latest Uploads</h2>
+            </div>
+            <div class="partTwo">
+              <div class="row between-flex">
+                <div class="left between-flex">
+                  <img src="./media/pdf.svg" alt="pdf icon">
+                  <div class="name">
+                    <h3>my-file.pdf</h3>
+                    <span>Elzero</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <p>2.9mb</p>
+                </div>
+              </div>
+              <div class="row between-flex">
+                <div class="left between-flex">
+                  <img src="./media/avi.svg" alt="pdf icon">
+                  <div class="name">
+                    <h3>My-Video-File.avi</h3>
+                    <span>Admin</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <p>4.9mb</p>
+                </div>
+              </div>
+              <div class="row between-flex">
+                <div class="left between-flex">
+                  <img src="./media/psd.svg" alt="pdf icon">
+                  <div class="name">
+                    <h3>My-Psd-File.psd</h3>
+                    <span>Osama</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <p>4.5mb</p>
+                </div>
+              </div>
+              <div class="row between-flex">
+                <div class="left between-flex">
+                  <img src="./media/zip.svg" alt="pdf icon">
+                  <div class="name">
+                    <h3>My-Zip-File.zip</h3>
+                    <span>User</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <p>8.9mb</p>
+                </div>
+              </div>
+              <div class="row between-flex">
+                <div class="left between-flex">
+                  <img src="./media/dll.svg" alt="pdf icon">
+                  <div class="name">
+                    <h3>My-Dll-File.dll</h3>
+                    <span>Mido</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <p>4.9mb</p>
+                </div>
+              </div>
+              <div class="row between-flex">
+                <div class="left between-flex">
+                  <img src="./media/eps.svg" alt="pdf icon">
+                  <div class="name">
+                    <h3>My-Eps-Files.eps</h3>
+                    <span>Designer</span>
+                  </div>
+                </div>
+                <div class="right">
+                  <p>8.9mb</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card cardNine rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Last Project Progress</h2>
+            </div>
+            <div class="partTwo">
+              <ul>
+                <li id="done">Git The Project</li>
+                <li id="done">Started The Project</li>
+                <li id="done">The Project Is About To Finish</li>
+                <li id="hold">Test The Project</li>
+                <li id="undone">Finish The Project & Get The Money</li>
+              </ul>
+              <img src="./media/project.png" alt="icon">
+            </div>
+          </div>
+          <div class="card cardTen rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Reminders</h2>
+            </div>
+            <div class="partTwo">
+              <ul>
+                <li class="one">
+                  <h3>Check My Tasks List</h3>
+                  <span>29/10/2022 - 12:00am</span>
+                </li>
+                <li class="two">
+                  <h3>Check My Projects</h3>
+                  <span>29/10/2022 - 12:00am</span>
+                </li>
+                <li class="three">
+                  <h3>Call All My Clients</h3>
+                  <span>29/10/2022 - 12:00am</span>
+                </li>
+                <li class="four">
+                  <h3>Finish the Development Workshop</h3>
+                  <span>29/10/2022 - 12:00am</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card card11 rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Latest Post</h2>
+            </div>
+            <div class="partTwo">
+              <img src="./media/avatar.png" alt="avatar">
+              <div>
+                <h3>Mohamed Ashraf</h3>
+                <span>About 3 Hours Ago</span>
+              </div>
+            </div>
+            <div class="partThree">
+              <p>
+                You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But You Cant Fool All Of The People All Of The Time.
+              </p>
+            </div>
+            <div class="partFour">
+              <span><i class="fa-regular fa-heart"></i> 1.8k</span>
+              <span><i class="fa-regular fa-comments"></i> 500</span>
+            </div>
+          </div>
+          <div class="card card12 rad-6 p-20 bg-eee">
+            <div class="partOne">
+              <h2>Social Media Stars</h2>
+            </div>
+            <div class="partTwo">
+              <div class="row row1 between-flex">
+                <div class="one between-flex">
+                  <i class="fa-brands fa-twitter"></i>
+                  <h3>90K Followers</h3>
+                </div>
+                <div class="two">
+                  <p>Follow</p>
+                </div>
+              </div>
+              <div class="row row2 between-flex">
+                <div class="one between-flex">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <h3>2M Likes</h3>
+                </div>
+                <div class="two">
+                  <p>Like</p>
+                </div>
+              </div>
+              <div class="row row3 between-flex">
+                <div class="one between-flex">
+                  <i class="fa-brands fa-youtube"></i>
+                  <h3>1M Subs</h3>
+                </div>
+                <div class="two">
+                  <p>Subscribe</p>
+                </div>
+              </div>
+              <div class="row row4 between-flex">
+                <div class="one between-flex">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <h3>70K Followers</h3>
+                </div>
+                <div class="two">
+                  <p>Follow</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

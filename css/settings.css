@@ -1,0 +1,381 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+}
+
+.settingsCardOne .partTwo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.settingsCardOne .partTwo h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.settingsCardOne .partTwo span {
+  font-size: 0.7rem;
+}
+.settingsCardOne .partThree textarea {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  height: 165px;
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  resize: none;
+  -o-border-radius: 6px;
+  font-size: 12px;
+  font-family: monospace;
+}
+.settingsCardOne .partThree textarea::placeholder {
+  color: var(--gray-color);
+  font-size: 12px;
+  transition: 300ms;
+  font-family: monospace;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+.settingsCardOne .partThree textarea:focus::placeholder {
+  color: #ddd;
+}
+.settingsCardTwo .label {
+  display:flex;
+  flex-direction: column;
+}
+.settingsCardTwo .partTwo {
+  gap: 10px;
+}
+.settingsCardTwo input::placeholder {
+  font-size: 13px;
+}
+.settingsCardTwo input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-size: 14px;
+}
+.settingsCardTwo .partThree input {
+  width: calc(80%);
+}
+.settingsCardTwo label {
+  color:var(--gray-color);
+  font-size: 14px;
+}
+.settingsCardTwo .partThree .inputEmail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.settingsCardTwo .partThree {
+  margin: 20px 0 !important;
+}
+.settingsCardTwo .partThree a {
+  color: var(--blue-color);
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  padding: 5px 5px;
+  font-size: 14px;
+}
+
+.settingsCardTwo .partThree .inputEmail div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settingsCardTwo .partThree a:hover {
+  color: var(--blue-alt-color);
+}
+
+
+
+.settingsCardThree .partTwo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.settingsCardThree .line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.settingsCardThree .line:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+.settingsCardThree h3 {
+  font-size: 14px;
+  margin: 2px 0;
+  font-weight: 500;
+}
+.settingsCardThree span{
+  font-size: 0.7rem;
+}
+.settingsCardThree a.password{
+  font-size: 13px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding: 5px 10px;
+  background-color: var(--blue-color);
+  color: white;
+  font-weight: 500;
+}
+.settingsCardThree a.devices {
+  font-size: 13px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding: 5px 10px;
+  background-color: #eee;
+  color: black;
+  font-weight: 500;
+}
+
+
+.settingsCardFour .partTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.settingsCardFour .line {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #f6f6f6;
+  width: 100%;
+}
+.settingsCardFour h3 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #868686;
+  margin-left: 10px;
+}
+
+.settingsCardFour i {
+  color: #868686;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ddd;
+}
+
+.settingsCardFive .partTwo {
+  display: flex;
+  margin: 20px 0;
+  flex-direction: column;
+  gap: 17px;
+}
+.settingsCardFive .partTwo div {
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+.settingsCardFive input{
+  cursor: pointer;
+
+}
+.settingsCardFive label{
+  cursor: pointer;
+  padding-left: 25px;
+  left: 0;
+  position: absolute;
+
+}
+.settingsCardFive input{
+  opacity: 0;
+}
+.settingsCardFive .partTwo span {
+  position: absolute;
+  top:50%;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 2px solid var(--gray-color);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transform: translatey(-50%);
+  -webkit-transform: translatey(-50%);
+  -moz-transform: translatey(-50%);
+  -ms-transform: translatey(-50%);
+  -o-transform: translatey(-50%);
+  transition: 200ms ease;
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -ms-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.settingsCardFive .partTwo span i {
+  font-size: 0.6rem;
+  color: white;
+  opacity: 0;
+  transition: 200ms ease;
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -ms-transition: 200ms ease;
+  -o-transition: 200ms ease;
+}
+.settingsCardFive input:checked + span {
+  border-color: var(--blue-color);
+  background-color: var(--blue-color);
+}
+.settingsCardFive input:checked + span i {
+  opacity: 1;
+}
+.settingsCardFive input:checked:hover + span {
+  background-color: var(--blue-alt-color);
+  transition: 50ms;
+  -webkit-transition: 50ms;
+  -moz-transition: 50ms;
+  -ms-transition: 50ms;
+  -o-transition: 50ms;
+}
+.settingsCardFive input:not(:checked):active + span {
+  border-color: rgb(167, 167, 167) ;
+  transition: 50ms;
+  -webkit-transition: 50ms;
+  -moz-transition: 50ms;
+  -ms-transition: 50ms;
+  -o-transition: 50ms;
+}
+
+.settingsCardsix .partTwo {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.settingsCardsix .partTwo div {
+  position: relative;
+  user-select: none;
+}
+.settingsCardsix .partTwo input {
+  opacity: 0;
+}
+.settingsCardsix .partTwo span {
+  position: absolute;
+  top:50%;
+  left: 5px;
+  transform: translateY(-50%);
+  height: 50%;
+  aspect-ratio: 1;
+  background-color: white;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--gray-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transition: 300ms ease;
+  -webkit-transition: 300ms ease;
+  -moz-transition: 300ms ease;
+  -ms-transition: 300ms ease;
+  -o-transition: 300ms ease;
+}
+.settingsCardsix .partTwo label {
+  padding-left: 20px;
+  width: fit-content;
+  position: absolute;
+  left: 5px;
+  cursor: pointer;
+}
+.settingsCardsix .partTwo input:checked + span {
+  background-color: var(--blue-color);
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--blue-color);
+}
+.settingsCardsix .partTwo input:not(:checked):active + span {
+  background-color: white;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px rgb(167, 167, 167);
+  transition: 50ms;
+  -webkit-transition: 50ms;
+  -moz-transition: 50ms;
+  -ms-transition: 50ms;
+  -o-transition: 50ms;
+}
+.settingsCardsix .partTwo input:checked:hover + span{
+  background-color: var(--blue-alt-color);
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--blue-alt-color);
+  transition: 100ms;
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -ms-transition: 100ms;
+  -o-transition: 100ms;
+}
+
+.settingsCardsix .partThree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.settingsCardsix .partThree div {
+  display: flex;
+  padding: 20px 0;
+  border-radius: 6px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  flex-direction: column;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
+.settingsCardsix .partThree div#active {
+  color: var(--blue-color);
+  border:2px solid var(--blue-color);
+}
+.settingsCardsix .partThree h3 {
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 500;
+
+}
+.settingsCardsix .partThree i {
+  font-size: 13px;
+}

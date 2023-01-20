@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/settings.css">
+  <link rel="stylesheet" href="./css/framework.css">
+  <link rel="icon" href="./media/icon.png">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font -->
+  <title>Settings</title>
+</head>
+<div>
+  <div class="page d-flex">
+  <div class="sidebar p-20 bg-white p-relative">
+    <h3 class="p-relative txt-c mt-0 m-30">Mido</h3>
+    <ul>
+      <li>
+        <a href="index.html" class=" d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-chart-bar"></i>
+          <span class="c-black fs-14">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="settings.html" class="active d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-gear"></i>
+          <span class="c-black fs-14">Settings</span>
+        </a>
+      </li>
+      <li>
+        <a href="profile.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-user"></i>
+          <span class="c-black fs-14">Profile</span>
+        </a>
+      </li>
+      <li>
+        <a href="projects.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-diagram-project"></i>
+          <span class="c-black fs-14">Projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="courses.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span class="c-black fs-14">Courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="friends.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-circle-user"></i>
+          <span class="c-black fs-14">Friends</span>
+        </a>
+      </li>
+      <li>
+        <a href="files.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-file"></i>
+          <span class="c-black fs-14">Files</span>
+        </a>
+      </li>
+      <li>
+        <a href="plans.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-credit-card"></i>
+          <span class="c-black fs-14">Plans</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="nav bg-white between-flex p-20">
+      <div class="search p-relative">
+        <input type="search" class="rad-10 p-10" placeholder="Type A keyword">
+      </div>
+      <div class="rightSide">
+        <i class="fa-regular fa-bell fs-20"></i>
+        <a href="./profile.html"><img class="avatar" src="./media/avatar.png" alt="avatar image"></a>
+      </div>
+
+    </div>
+  <div class="main m-10">
+    <h1 class="p-relative">Settings</h1>
+    <div class="container">
+      <div class="card settingsCardOne rad-6 p-20 bg-eee">
+        <div class="partOne">
+          <h2>Site Control</h2>
+          <span>Control The Website If There Is Maintance</span>
+        </div>
+        <div class="partTwo">
+          <div class="text">
+            <h3>Website Control</h3>
+          <span>Open/Close Website And Type The Reason</span>
+          </div>
+          <div class="toggleHolder">
+            <input type="checkbox" name="Website Status" checked id="websiteStatus">
+            <label for="websiteStatus" class="toggle">
+              <div></div>
+            </label>
+          </div>
+        </div>
+        <div class="partThree">
+          <textarea name="closeMessage" id="closeMessage" placeholder="Close Message Content"></textarea>
+        </div>
+      </div>
+      <div class="card settingsCardTwo rad-6 p-20 bg-eee">
+        <div class="partOne mb-20">
+          <h2>General Info</h2>
+          <span>General Information About Your Account</span>
+        </div>
+        <form action="#">
+        <div class="partTwo d-col-flex">
+            <div class="label">
+              <label for="FirstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder="First Name">
+            </div>
+            <div class="label">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lasttName" placeholder="Last Name">
+            </div>
+        </div>
+        <div class="partThree d-flex">
+          <div class="inputEmail">
+            <label for="email">Email</label>
+            <div>
+              <input type="email" name="email" id="email" placeholder="midooashraf76@gmail.com" disabled>
+              <a href="#">Change</a>
+            </div>
+          </div>
+        </div>
+      </form>
+      </div>
+      <div class="card settingsCardThree rad-6 p-20 bg-eee">
+        <div class="partOne">
+        <h2>Security Info</h2>
+        <span>Security Information About Your Account</span>
+        </div>
+        <div class="partTwo">
+          <div class="line one">
+            <div>
+              <h3>Password</h3>
+              <span>Last Change On 25/10/2021</span>
+            </div>
+            <a href="#" class="password">Change</a>
+          </div>
+          <div class="line two">
+            <div>
+              <h3>Two-Factor Authentication</h3>
+              <span>Enable/Disable The Feature</span>
+            </div>
+            <div class="toggleHolder">
+              <input type="checkbox" name="Two-Factor" checked id="twoFactor">
+              <label for="twoFactor">
+                <div></div>
+              </label>
+            </div>
+          </div>
+          <div class="line three">
+            <div>
+              <h3>Devices</h3>
+              <span>Check The Logic Devices List</span>
+            </div>
+            <a href="#" class="devices">Devices</a>
+          </div>
+        </div>
+      </div>
+      <div class="card settingsCardFour rad-6 p-20 bg-eee">
+        <div class="partOne">
+          <h2>Social Info</h2>
+          <span>Social Media Information</span>
+        </div>
+        <div class="partTwo">
+          <div class="line">
+            <i class="fa-brands fa-twitter"></i>
+            <h3>urboimido</h3>
+          </div>
+          <div class="line">
+            <i class="fa-brands fa-facebook-f"></i>
+            <h3>Mohamed Ashraf</h3>
+          </div>
+          <div class="line">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <h3>Mohamed Dev Egy</h3>
+          </div>
+          <div class="line">
+            <i class="fa-brands fa-youtube"></i>
+            <h3>Dev Easy</h3>
+          </div>
+        </div>
+      </div>
+      <div class="card settingsCardFive rad-6 p-20 bg-eee">
+        <div class="partOne">
+          <h2>Widgets control</h2>
+          <span>Show/Hide Widgets</span>
+        </div>
+        <div class="partTwo">
+          <div>
+            <input type="checkbox" name="quick draft" id="quickDraft" checked>
+            <span><i class="fa-solid fa-check"></i></span>
+            <label for="quickDraft">Quick Draft</label>
+          </div>
+          <div>
+            <input type="checkbox" name="yearly targets" id="yearlyTargets" checked>
+            <span><i class="fa-solid fa-check"></i></span>
+            <label for="yearlyTargets">Yearly Targets</label>
+          </div>
+          <div>
+            <input type="checkbox" name="tickets stats" id="ticketsStats" checked>
+            <span><i class="fa-solid fa-check"></i></span>
+            <label for="ticketsStats">Tickets Statistics</label>
+          </div>
+          <div>
+            <input type="checkbox" name="latest news" id="latestNews" checked>
+            <span><i class="fa-solid fa-check"></i></span>
+            <label for="latestNews">Latest News</label>
+          </div>
+          <div>
+            <input type="checkbox" name="Latest tasks" id="latestTasks">
+            <span><i class="fa-solid fa-check"></i></span>
+            <label for="latestTasks">Latest Tasks</label>
+          </div>
+          <div>
+            <input type="checkbox" name="top search" id="topSearch" checked>
+            <span><i class="fa-solid fa-check"></i></span>
+            <label for="topSearch">Top Search Items</label>
+          </div>
+        </div>
+      </div>
+      <div class="card settingsCardsix rad-6 p-20 bg-eee">
+        <div class="partOne">
+          <h2>Backup Manager</h2>
+          <span>Control Backup Time And Location</span>
+        </div>
+        <div class="partTwo">
+          <div>
+            <input type="radio" name="backupTime" id="backupDaily" checked>
+            <span></span>
+            <label for="backupDaily">Daily</label>
+          </div>
+          <div>
+            <input type="radio" name="backupTime" id="backupWeekly">
+            <span></span>
+            <label for="backupWeekly">Weekly</label>
+          </div>
+          <div>
+            <input type="radio" name="backupTime" id="backupMonthly">
+            <span></span>
+            <label for="backupMonthly">Monthly</label>
+          </div>
+        </div>
+        <div class="partThree">
+          <div>
+            <i class="fa-solid fa-server"></i>
+            <h3>Megaman</h3>
+          </div>
+          <div id="active">
+            <i class="fa-solid fa-server"></i>
+            <h3 >Zero</h3>
+          </div>
+          <div>
+            <i class="fa-solid fa-server"></i>
+            <h3>Sigma</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/settings.css">
+  <link rel="stylesheet" href="./css/framework.css">
+  <link rel="icon" href="./media/icon.png">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font -->
+  <title>Settings</title>
+</head>
+<div>
+  <div class="page d-flex">
+  <div class="sidebar p-20 bg-white p-relative">
+    <h3 class="p-relative txt-c mt-0 m-30">Mido</h3>
+    <ul>
+      <li>
+        <a href="index.html" class=" d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-chart-bar"></i>
+          <span class="c-black fs-14">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="settings.html" class=" d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-gear"></i>
+          <span class="c-black fs-14">Settings</span>
+        </a>
+      </li>
+      <li>
+        <a href="profile.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-user"></i>
+          <span class="c-black fs-14">Profile</span>
+        </a>
+      </li>
+      <li>
+        <a href="projects.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-diagram-project"></i>
+          <span class="c-black fs-14">Projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="courses.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span class="c-black fs-14">Courses</span>
+        </a>
+      </li>
+      <li>
+        <a href="friends.html" class="active d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-circle-user"></i>
+          <span class="c-black fs-14">Friends</span>
+        </a>
+      </li>
+      <li>
+        <a href="files.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-file"></i>
+          <span class="c-black fs-14">Files</span>
+        </a>
+      </li>
+      <li>
+        <a href="plans.html" class="d-flex align-center fs-14 c-black rad-6 p-10">
+          <i class="fa-regular fa-credit-card"></i>
+          <span class="c-black fs-14">Plans</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="nav bg-white between-flex p-20">
+      <div class="search p-relative">
+        <input type="search" class="rad-10 p-10" placeholder="Type A keyword">
+      </div>
+      <div class="rightSide">
+        <i class="fa-regular fa-bell fs-20"></i>
+        <a href="./profile.html"><img class="avatar" src="./media/avatar.png" alt="avatar image"></a>
+      </div>
+
+    </div>
+  <div class="main m-10">
+    <div class="friends">
+      <h1 class="p-relative">Friends</h1>
+      <div class="container">
+        <div class="card" id="muNashaat">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/muNashaat.jpeg" alt="friend image">
+            <h2>Muhammed Nashaat</h2>
+            <span>Doctor</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 99 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 15 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 25 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 02/10/2010</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="aliElshime">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/aliElshime.jpeg" alt="friend image">
+            <h2>Ali Elshime</h2>
+            <span>Artist</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 95 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 35 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 10 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 14/06/2016</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="ballah">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/ballah.jpeg" alt="friend image">
+            <h2>Abdallah Ali</h2>
+            <span>My Fav. Nerd</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 80 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 20 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 35 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 03/05/2016</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="hassanAli">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/hassanAli.jpeg" alt="friend image">
+            <h2>Hassan Ali</h2>
+            <span>Photoshop Artist</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 75 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 10 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 25 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 02/10/2018</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="fezo">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/fezo.jpeg" alt="friend image">
+            <h2>Mohamed Mahfouz</h2>
+            <span>Unknown For a While</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 100 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 5 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 10 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 04/20/2011</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="hodaAssal">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/mahmoudAssal.jpeg" alt="friend image">
+            <h2>Mahmoud Assal</h2>
+            <span>Experienced Driver</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 60 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 30 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 15 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 01/09/2021</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="abdo">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/friend-05.jpg" alt="friend image">
+            <h2>Abdo Mohamed</h2>
+            <span>Merchant</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 50 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 15 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 5 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 02/10/2018</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="abdallahSk">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/abdallahSk.jpeg" alt="friend image">
+            <h2>Abdallah Eldesoky</h2>
+            <span>Mechanical Engineer</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 40 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 25 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 10 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 02/10/2021</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="mohamedSaleh">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/mohamedSaleh.jpeg" alt="friend image">
+            <h2>Mohamed Saleh</h2>
+            <span>Civil Engineer</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 75 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 25 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 10 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 02/10/2022</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="eyadMohsen">
+          <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+          <div class="partOne">
+            <img src="./media/eyadMohsen.jpeg" alt="friend image">
+            <h2>Eyad Mohsen</h2>
+            <span>Civil Engineer</span>
+          </div>
+          <div class="partTwo">
+            <div class="line">
+              <p><i class="fa-regular fa-face-smile"></i> 50 Friends</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-solid fa-code-commit"></i> 20 Projects</p>
+            </div>
+            <div class="line">
+              <p><i class="fa-regular fa-newspaper"></i> 15 Articles</p>
+            </div>
+          </div>
+          <div class="partThree">
+            <span>Joined 02/10/2022</span>
+            <div class="buttons">
+              <button>Profile</button>
+              <button style="background-color: var(--red-color);">Remove</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
