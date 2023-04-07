@@ -24,7 +24,7 @@ This is a template from [Elzero Web School](https://elzero.org/).
 
 ### Links
 
-- Live Site URL: [Live](https://white-dashboard.netlify.app)
+- Live Site URL: [white-dashboard.netlify.app](https://white-dashboard.netlify.app)
 
 ## My process
 
